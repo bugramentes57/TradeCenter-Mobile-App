@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/kayitFragment">
+
+    <fragment
+        android:id="@+id/kayitFragment"
+        android:name="com.bugramentes.tradecenter.fragments.KayitFragment"
+        android:label="fragment_kayit"
+        tools:layout="@layout/fragment_kayit" >
+        <action
+            android:id="@+id/action_kayitFragment_to_girisFragment"
+            app:destination="@id/girisFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/girisFragment"
+        android:name="com.bugramentes.tradecenter.fragments.GirisFragment"
+        android:label="fragment_giris"
+        tools:layout="@layout/fragment_giris" >
+        <action
+            android:id="@+id/action_girisFragment_to_passwordResetFragment"
+            app:destination="@id/passwordResetFragment" />
+        <action
+            android:id="@+id/action_girisFragment_to_kayitFragment"
+            app:destination="@id/kayitFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/passwordResetFragment"
+        android:name="com.bugramentes.tradecenter.fragments.PasswordResetFragment"
+        android:label="fragment_password_reset"
+        tools:layout="@layout/fragment_password_reset" >
+        <action
+            android:id="@+id/action_passwordResetFragment_to_girisFragment"
+            app:destination="@id/girisFragment" />
+    </fragment>
+</navigation>

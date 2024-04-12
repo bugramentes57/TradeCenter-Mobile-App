@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/addStuff" android:title="Eşya Ekle"></item>
+    <item android:id="@+id/myStuff" android:title="Ürünlerim"></item>
+    <item android:id="@+id/logOut" android:title="Çıkış Yap"></item>
+
+</menu>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "223032616129",
+    "project_id": "tradingcenter-97c80",
+    "storage_bucket": "tradingcenter-97c80.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223032616129:android:8babd9e01faf010a07a040",
+        "android_client_info": {
+          "package_name": "com.bugramentes.tradecenter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223032616129-cd063b1pmc6qdirojo6br67mh877036s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2atAvTWd770bS27HOlYedZgiNb2Ng65I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223032616129-cd063b1pmc6qdirojo6br67mh877036s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
